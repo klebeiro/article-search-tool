@@ -1,0 +1,42 @@
+h1, input, button {
+    margin: 1rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    margin-top: 2rem;
+}
+
+.search--form {
+    max-width: 225px;
+    display: flex;
+    margin: auto;
+}
+
+input {
+    border-radius: 12px;
+    border-style: solid;
+    border-color: lightgray;
+    border-width: 2px;
+    padding: .5rem;
+}
+
+input:focus{
+    outline-color: var(--focus-border);
+}
+
+button {  
+    margin: auto;
+    padding: .25rem;
+    border-radius: 50%;
+    border-style: none;
+    color: white;
+    background-color: var(--search-button-color);
+    font-size: 2rem;
+}
+
+button:hover {
+    cursor: pointer;
+}

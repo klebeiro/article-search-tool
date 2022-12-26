@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --focus-border: #88ABE8;
+    --article-background: #7AA5BF;
+    --search-button-color: #74B5FD;
+}
+
+body {
+    font-family: sans-serif;
+}

@@ -1,0 +1,15 @@
+.article {
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    margin: 1rem 4rem;
+    padding: 1rem;
+    background-color: var(--article-background);
+}
+
+.article > h2, p, a {
+    display: flex;
+    margin: .3rem;
+    align-items: center;
+    overflow: hidden;
+}
